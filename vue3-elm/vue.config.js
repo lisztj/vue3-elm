@@ -4,9 +4,10 @@ module.exports = {
 	devServer: {
 		disableHostCheck: true, // 不约束域名
         overlay: {
-          warnings: true,
-          errors: true,
-          'no-tabs': 'off'
+          warnings: false,
+          errors: false,
+          'no-tabs': 'off',
+          lintOnSave: false
         }
 	},
     
